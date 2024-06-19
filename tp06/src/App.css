@@ -1,0 +1,111 @@
+/* Container styles to center content */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  overflow: hidden; /* Prevents the page from overflowing */
+}
+
+/* Content wrapper to contain form and list */
+.content {
+  width: 600px;
+  max-height: 90vh; /* Prevents the content from overflowing vertically */
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: auto; /* Allows scrolling within the content */
+}
+
+/* Form styles */
+.form {
+  margin-bottom: 20px;
+}
+
+.form h2 {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Appointment list styles */
+.appointment-list {
+  margin-top: 20px;
+}
+
+.appointment-list h2 {
+  margin-bottom: 10px;
+}
+
+.appointment-items {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.appointment-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.appointment-item p {
+  margin: 5px 0;
+}
+
+.btn-delete {
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+/* Error styles */
+.error {
+  color: red;
+  font-weight: bold;
+}

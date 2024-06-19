@@ -1,0 +1,32 @@
+.formContainer {
+    margin: 20px;
+  }
+  
+  .formContainer h2 {
+    font-size: 24px;
+  }
+  
+  .formContainer form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formContainer label {
+    margin-top: 10px;
+  }
+  
+  .formContainer input,
+  .formContainer textarea {
+    margin-top: 5px;
+    padding: 8px;
+  }
+  
+  .formContainer button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
