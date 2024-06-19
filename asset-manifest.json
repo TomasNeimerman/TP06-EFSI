@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/TP06-EFSI/static/css/main.f855e6bc.css",
+    "main.js": "/TP06-EFSI/static/js/main.c62c0233.js",
+    "static/js/453.c57952f8.chunk.js": "/TP06-EFSI/static/js/453.c57952f8.chunk.js",
+    "static/media/logo.svg": "/TP06-EFSI/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TP06-EFSI/index.html",
+    "main.f855e6bc.css.map": "/TP06-EFSI/static/css/main.f855e6bc.css.map",
+    "main.c62c0233.js.map": "/TP06-EFSI/static/js/main.c62c0233.js.map",
+    "453.c57952f8.chunk.js.map": "/TP06-EFSI/static/js/453.c57952f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.c62c0233.js"
+  ]
+}
